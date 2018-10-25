@@ -1,0 +1,6 @@
+1. 在pro文件中添加 TRANSLATIONS = zh_hans.ts
+
+2.命令行 lupdate widgetTS.pro 
+（生成.ts文件）
+3.命令行 lrelease zh_hans.ts -qm zh_hans.qm
+(生成.qm文件)
